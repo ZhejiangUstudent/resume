@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family:"Trebuchet MS" , Verdana ,sans-serif ;
+    font-size: 16px;
+
+}
+body{
+    width: 1000px;
+    margin: 50px auto;
+}
+
+ul{
+    list-style: none;
+}
+.title{
+    width: 300px;
+    float: left;
+    font-size: 2rem;
+    color: white;
+    background: lightskyblue;
+    text-align: center;
+    height: 740px;
+}
+.title h1{
+    padding-top: 50px;
+}
+.content{
+    width: 500px;
+    float: left;
+    margin-left: 10px;
+}
+.basicInfo , .CommWay ,.ability,.schoolExe{
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.basicInfo ul , .CommWay ul ,.ability ul, .schoolExe ul ,.ItemExe ul{
+    padding-top: 15px;
+}
+.basicInfo li p , .CommWay li p {
+    font-weight: 800;
+    float: left;
+
+}
+.basicInfo li a ,.CommWay li a{
+
+    float: left;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+.ability ul>li,.schoolExe ul > li ,.ItemExe ul>li {
+   padding-top: 15px;
+}

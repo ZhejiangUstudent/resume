@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Trebuchet MS",sans-serif ,Verdana;
+    font-size: 10px;
+}
+body{
+    width: 1000px;
+    margin: 40px auto;
+}
+ul{
+    list-style: none;
+}
+.title{
+    height: 50px;
+    background: #808080;
+    color: #ffffff;
+}
+.title h1{
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.basicInfo , .CommWay ,.ability ,.schoolExe ,.ItemExe{
+    height: 80px;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
+.basicInfo h2 ,.CommWay h2 , .ability h2,.schoolExe h2,.ItemExe h2{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+    background-color: #cccccc;
+    border-bottom: 1px solid #ffffff;
+}
+.ItemExe h2{
+    border-bottom: 1px solid #808080;
+}
+.basicInfo ul>li p ,.CommWay ul>li p{
+    float: left;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.basicInfo ul>li a,.CommWay ul>li a {
+    float: left;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+.ability ul>li h3,.schoolExe ul>li h3,.ItemExe ul>li h3{
+    display: block;
+    float: left;
+    padding-left: 15px;
+}
+.ability ul>li a,.schoolExe ul>li a,.ItemExe ul>li a{
+    width: 825px;
+    display: block;
+    float: left;
+}
+.ability ul>li:first-child,.schoolExe ul>li:first-child,.ItemExe ul>li:first-child{
+    padding-top: 10px;
+}
